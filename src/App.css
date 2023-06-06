@@ -1,0 +1,22 @@
+@import url("https://fonts.googleapis.com/css2?family=Courgette&family=Fasthand&family=Roboto+Condensed&display=swap");
+body {
+  font-family:  sans-serif ,"Roboto Condensed";
+
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px grey;
+  /* border-radius: 10px; */
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: rgb(159, 156, 173);
+  border-radius: 10px;
+}

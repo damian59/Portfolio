@@ -1,0 +1,33 @@
+.carousel-root {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+  .carousel .slide {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+  .carousel .slide img {
+    width: 30%;
+    padding: 1% 0%;
+  }
+  
+  .carousel .thumbs-wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: auto;
+  }
+  
+  .li .thumb .selected {
+    width: 10px;
+  }
+
+  .carousel img {
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+  }

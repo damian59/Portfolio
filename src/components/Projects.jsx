@@ -26,6 +26,16 @@ const Projects = () => {
       link: "https://amdb-gilt.vercel.app/",
       github: "https://github.com/damian59/AMDB",
     },
+    {
+      id: 2,
+      title: "Portfolio",
+      img: IMG2,
+      description:
+        "Mi portafolio donde muestro mis trabajos realizados.",
+      technologies: "Html | CSS | Javascript | React Js | React-router-dom",
+      link: "http://portfolio-one-mu-77.vercel.app/",
+      github: "https://github.com/damian59/Portfolio",
+    },
   ];
   return (
     <section className="projects_section">

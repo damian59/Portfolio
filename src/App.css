@@ -3,7 +3,7 @@ body {
   font-family:  sans-serif ,"Roboto Condensed";
   background: linear-gradient(to bottom left,  #121231, #6af6e1fa );
   color: #f0f8ff;
-
+min-height: 100vh;
 }
 
 /* width */

@@ -1,5 +1,5 @@
 .navbar {
-    background-color: rgba(180, 180, 194, 0.993);
+    background-color: #121231;
     height: 80px;
     display: flex;
     justify-content: center;
@@ -8,7 +8,6 @@
     position: sticky;
     top: 0;
     z-index: 999;
-  
   }
   
   .navbar-container {
@@ -18,10 +17,11 @@
     width: 100%;
     max-width: 1300px;
     padding: 0 50px;
+
   }
   
   .navbar-logo {
-    color: #141414;
+    color: #f0f8ff;
     justify-self: flex-start;
     cursor: pointer;
     font-size: 2rem;
@@ -31,13 +31,13 @@
   
   }
   .navbar-logo:hover{
-    color: white;
+    color: #6af6e1fa ;
     text-decoration: solid;
   }
   
   .menu-icon {
     display: none;
-    color: #141414;
+    color: #ffffff;
   }
   
   .nav-menu {
@@ -53,7 +53,7 @@
   }
   
   .nav-links {
-    color: #141414;
+    color: #f0f8ff;
     display: flex;
     align-items: center;
     text-decoration: none;
@@ -62,7 +62,7 @@
   
   }
   .nav-links:hover{
-    color:white;
+    color: #6af6e1fa;
     text-decoration: underline;
   }
   @media screen and (max-width: 960px) {
@@ -86,13 +86,18 @@
     }
   
     .nav-menu.active {
-      background-color: rgba(255, 255, 255, 0.728); /* ajustamos la opacidad del fondo */
-      left: 0;
-      opacity: 1;
-      transition: all 0.5s ease;
-      z-index: 1;
-      width: 50%; /* ajustamos el ancho del menú hamburguesa */
-    margin: 0 auto; /* centramos horizontalmente el menú hamburguesa */
+  position: fixed;
+  top: 45px;
+  left: 0;
+  width: 50%;
+  min-height: 10%;
+  padding: 3% 0%;
+  margin: 0% 2% 0% 44%;
+  background-color: #545776a2;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
     }
   
     .menu-icon {

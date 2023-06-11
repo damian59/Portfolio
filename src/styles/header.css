@@ -1,33 +1,52 @@
+.cta{
+  padding-top: 2%;
+}
+.skills{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+
 .carousel-root {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    width: 70%;
+  }
+  .carousel-status{
+    display: none;
   }
   
   .carousel .slide {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    
   }
   
   .carousel .slide img {
-    width: 30%;
-    padding: 1% 0%;
+    width: auto;
+    height: 200px;
+    margin: 3% 0%;
+   
   }
   
   .carousel .thumbs-wrapper {
-    display: flex;
+    display: none;
     flex-direction: row;
     justify-content: center;
-    width: auto;
+    align-items: center;
+    
+ 
+ 
   }
   
-  .li .thumb .selected {
-    width: 10px;
-  }
+ 
+  
 
   .carousel img {
-    width: 100%;
+    width: 50%;
     height: auto;
     object-fit: contain;
   }

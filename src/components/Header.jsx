@@ -1,8 +1,8 @@
-import { Link } from 'react-router-dom'
-import CV from '../assets/CV.pdf'
+
+
 import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
 import { Carousel } from 'react-responsive-carousel';
-import '../styles/carousel.css'
+import '../styles/header.css'
 
 
 
@@ -11,9 +11,6 @@ export const Header = () => {
   return (
     <div className="cta">
     
-    <Link to={CV} target="_blank" download >
-    Download CV
-    </Link>
     <div className='skills'>
     <h3>the skills i have</h3>
       <h1>Skills</h1>
@@ -51,6 +48,8 @@ export const Header = () => {
         
     </div>
     
+   
+
   </div>
   )
 }

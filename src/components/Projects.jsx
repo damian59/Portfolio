@@ -11,7 +11,7 @@ const Projects = () => {
       title: "Marvel",
       img: IMG1,
       description:
-        "An educational website is a huge interactive platform to present various information for people.",
+        "Esta app es un proyecto individual, La cual fue creada a partir de la api de Marvel.  modelo resposivo.",
       technologies: "Html | CSS | Javascript | React Js | React-router-dom",
       link: "https://marvel-app-wheat.vercel.app/",
       github: "https://github.com/damian59/MarvelApp",
@@ -21,7 +21,7 @@ const Projects = () => {
       title: "AMDB",
       img: IMG2,
       description:
-        "The COVID Tracking Project collects and publishes the most complete testing data available for all areas of the world.",
+        "Proyecto individual que simula una web de películas estilo TMDB . Desarrollada en React con autenticación Auth0. Implementación de diseño responsivo.",
       technologies: "Html | CSS | Javascript | React Js | React-router-dom",
       link: "https://amdb-gilt.vercel.app/",
       github: "https://github.com/damian59/AMDB",
